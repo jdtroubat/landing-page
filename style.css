@@ -1,48 +1,98 @@
-body {
-    display: flex;
+* {
     margin: 0;
     padding: 0;
-    border: none;
+}
+    /*First part*/
+.container1 {
+    display: flex;
+    justify-content: space-between;
 }
 
-.container1{
+.flag {
     display: flex;
-    flex: 1;
-    padding-left: 150px;
-    padding-right: 150px;
-    background-color: #1F2937;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    max-width: 30px;
 }
 
-.headerleft{
+    /*Second part*/
+
+.container2 {
     display: flex;
+    justify-content: space-between;
+}
+  
+.left2 {
     flex: 1;
-    align-content: center;
-    justify-content: flex-start;
+}
+
+.mainimg {
+    max-width: 400px;
+    height: auto;
+}
+
+    /*Third part*/
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.textcenter3 {
+    text-align: center;
+  }
+  
+.imagesp3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+  
+img {
+    max-width: 200px;
+    height: auto;
+}
+  
+div {
+    text-align: center;
+}
+  
+    /*Fourth part*/
+
+.container4 {
+
+}
+.cit1 {
+
+}
+
+.cit2 {
+
+}
+
+    /*Fith part*/
+
+.container5{
     
 }
 
-.headerright{
-    display: flex;
-    flex: 1;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 25px;
+.left5 {
+
 }
 
+.subscribe1{
 
-img{
-    max-height: 25px;
 }
 
-a {
-    color: #f9faf8;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif
+.subscribe2{
+
 }
 
-.container2 {
-    background-color: #1F2937;
+.right5 {
+
 }
