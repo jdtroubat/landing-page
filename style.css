@@ -2,31 +2,95 @@
     margin: 0;
     padding: 0;
 }
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6 {
+  padding-left: 150px;
+  padding-right: 150px;
+  font-family: Roboto;
+}
+
     /*First part*/
 .container1 {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .flag {
     display: flex;
-    max-width: 30px;
+    max-width: 35px;
+    max-height: auto;
 }
 
+.headerr1{
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+
+
+}
     /*Second part*/
 
 .container2 {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
 }
   
 .left2 {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #E5E7EB;
 }
 
+.textl1 {
+    display: flex;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: left;
+}
+.textl2 {
+    font-size: 18px;
+    text-align: left;
+
+}
+.bleft {
+    max-width: 100px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;   
+}
+
+
+.right2 {
+    display: flex;
+    justify-items: flex-end;
+}
 .mainimg {
-    max-width: 400px;
+    max-width: 300px;
     height: auto;
+    border-radius: 5px;
 }
 
     /*Third part*/
@@ -39,6 +103,9 @@
   
 .textcenter3 {
     text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
   }
   
 .imagesp3 {
@@ -65,7 +132,8 @@ div {
     /*Fourth part*/
 
 .container4 {
-
+    display: flex;
+    flex-direction: column;
 }
 .cit1 {
 
@@ -78,21 +146,32 @@ div {
     /*Fith part*/
 
 .container5{
-    
+    display: flex;
 }
 
 .left5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe1 {
 
 }
 
-.subscribe1{
-
-}
-
-.subscribe2{
+.subscribe2 {
 
 }
 
 .right5 {
+    display: flex;
+}
 
+.signup{
+
+}
+
+    /* Footer */
+
+.container6 {
+    display: flex;
 }
