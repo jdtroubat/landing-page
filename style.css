@@ -14,8 +14,8 @@
 .container4,
 .container5,
 .container6 {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 250px;
+  padding-right: 250px;
   font-family: Roboto;
 }
 
@@ -183,7 +183,6 @@ div {
 .container5 {
     display: flex;
     flex-direction: column;
-    padding: 100px;
 }
       
 .colorcontainer5 {
@@ -192,15 +191,18 @@ div {
     background-color: #3882F6;
     border-radius: 5px;
     padding-top: 40px;
-    padding-bottom: 40px;
     padding-left: 80px;
     padding-right: 80px;
+    padding-bottom: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
       
 .left5 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
 }
       
 .subscribe1 {
